@@ -1,0 +1,23 @@
+{
+ "theme": "christmas",
+ "store": "soundboard.christmas.v1",
+ "legacy_caches": {},
+ "words": {
+  "en": {
+   "title": "Christmas Soundboard",
+   "loading": "Unwrapping the sounds…",
+   "tip": "🔔 Tip: on Saint Nicholas' Eve, pair your phone with a Bluetooth speaker by the front door: little bells, a donkey, three knocks... then let surprise mode do the rest.",
+   "sounds_by": "Sounds by their creators on Freesound, Orange Free Sounds, Wikimedia Commons (US military bands, NASA, Lingua Libre), incompetech (Kevin MacLeod), Mixkit and the BBC Sound Effects archive, used under their licenses. The character voices are synthesised. We claim no rights over the sounds.",
+   "fonts": "Fonts: Berkshire Swash and Bricolage Grotesque (SIL OFL). Icons: Material Design Icons (Apache 2.0). Code: MIT.",
+   "load_failed": "The elves dropped a parcel: the soundboard failed to load. Try reloading the page."
+  },
+  "fr": {
+   "title": "Boîte à sons de Noël",
+   "loading": "Déballage des sons…",
+   "tip": "🔔 Astuce : la veille de la Saint-Nicolas, reliez votre téléphone à une enceinte Bluetooth près de la porte d'entrée : clochettes, un âne, trois coups frappés... puis laissez le mode surprise faire le reste.",
+   "sounds_by": "Sons créés par leurs auteurs sur Freesound, Orange Free Sounds, Wikimedia Commons (orchestres militaires américains, NASA, Lingua Libre), incompetech (Kevin MacLeod), Mixkit et les archives BBC Sound Effects, utilisés selon leurs licences. Les voix des personnages sont synthétisées. Nous ne revendiquons aucun droit sur les sons.",
+   "fonts": "Polices : Berkshire Swash et Bricolage Grotesque (SIL OFL). Icônes : Material Design Icons (Apache 2.0). Code : MIT.",
+   "load_failed": "Les lutins ont fait tomber un paquet : la boîte à sons n'a pas pu se charger. Rechargez la page."
+  }
+ }
+}

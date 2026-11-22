@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Christmas Soundboard · Boîte à sons de Noël</title>
+  <meta name="description" content="Free Christmas and Saint Nicholas soundboard: 290+ sounds (sleigh bells, Santa's ho ho ho, Saint Nicholas' donkey and his knock at the door, elves, presents, New Year) and carols to mix. Voices in English and French. Works offline, no sign-up.">
+  <meta name="theme-color" content="#06101b">
+  <link rel="canonical" href="https://mayerwin.github.io/christmas-soundboard/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Christmas Soundboard">
+  <meta property="og:url" content="https://mayerwin.github.io/christmas-soundboard/">
+  <meta property="og:title" content="🎄 Christmas Soundboard: Santa, Saint Nicholas & sleigh bells">
+  <meta property="og:description" content="290+ festive sounds and carols: Santa, Saint Nicholas and his donkey, sleigh bells, elves, presents, New Year's countdown. Voices in English and French. Free, offline.">
+  <meta property="og:image" content="https://mayerwin.github.io/christmas-soundboard/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Christmas Soundboard: Santa's sleigh crossing the moon, Saint Nicholas and his donkey in the snow">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🎄 Christmas Soundboard: Santa, Saint Nicholas & sleigh bells">
+  <meta name="twitter:description" content="290+ festive sounds, carols to mix, Saint Nicholas and Santa in English and French. Offline app. Free.">
+  <meta name="twitter:image" content="https://mayerwin.github.io/christmas-soundboard/og-image.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <style>:root { --bg:#06101b; --fg:#f2f6fb; --panel:#0f1d2d; --toast:#13263a; --title:#fff1d6; --tip:#ffe2a8; --link:#ffc861; --accent:#e23744; --accent-hi:#f0606b; --on-accent:#ffffff; }</style>
+  <link rel="stylesheet" href="site.css">
+  <script type="module" src="site.js"></script>
+</head>
+<body>
+  <main id="app">
+    <div class="loading"><span class="emoji">🎄</span><p data-i18n="loading">Unwrapping the sounds…</p></div>
+  </main>
+  <noscript><p class="nojs">This soundboard needs JavaScript. / Cette boîte à sons a besoin de JavaScript.</p></noscript>
+  <footer>
+    <p><button type="button" class="install" id="install" hidden data-i18n="install">📲 Install the app</button></p>
+    <p class="tip" data-i18n="tip">🔔 Tip: on Saint Nicholas' Eve, pair your phone with a Bluetooth speaker by the front door: little bells, a donkey, three knocks... then let surprise mode do the rest.</p>
+    <p><span data-i18n="sounds_by">Sounds by their creators on Freesound, Orange Free Sounds, Wikimedia Commons (US military bands, NASA, Lingua Libre), incompetech (Kevin MacLeod), Mixkit and the BBC Sound Effects archive, used under their licenses. The character voices are synthesised. We claim no rights over the sounds.</span>
+      <button type="button" class="linkish" id="credits-open" data-i18n="full_credits">Full credits</button></p>
+    <p><span data-i18n="fonts">Fonts: Berkshire Swash and Bricolage Grotesque (SIL OFL). Icons: Material Design Icons (Apache 2.0). Code: MIT.</span>
+      <a href="https://github.com/mayerwin/christmas-soundboard" data-i18n="source">Source on GitHub</a></p>
+    <p class="small" data-i18n="privacy">Nothing you do here leaves your browser: favourites, hidden sounds and presets are stored on this device only.</p>
+  </footer>
+  <dialog id="credits">
+    <form method="dialog"><button class="close" aria-label="Close">×</button></form>
+    <h2 data-i18n="credits">Credits</h2>
+    <p data-i18n="credits_intro">Every sound below belongs to its author and is used under the license shown. Thank you! We claim no rights over these sounds. Some licenses (CC BY-NC) forbid commercial use.</p>
+    <div id="credits-list"></div>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
