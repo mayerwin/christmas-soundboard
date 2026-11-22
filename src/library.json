@@ -18,7 +18,9 @@
    "summoning": "Unwrapping the sounds…",
    "motion": "🏃 Motion surprises",
    "motion_hint": "When a camera sees a person, it plays a random sound (from the surprise pool) on that camera's speaker.",
-   "preset_eg": "e.g. “Porch: fireplace + carols at 60 %”"
+   "preset_eg": "e.g. “Porch: fireplace + carols at 60 %”",
+   "bg_amb": "🔥 Ambiences",
+   "hush_hint": "Elves at work all night, who freeze at the slightest noise: this device listens with its microphone, and at a noise every sound fades out at once, coming back {0} s after the last one. Its own sounds don't count. Keep this page open: the screen stays on while it listens."
   },
   "fr": {
    "haunt": "Mode surprise",
@@ -29,7 +31,9 @@
    "summoning": "Déballage des sons…",
    "motion": "🏃 Surprises au mouvement",
    "motion_hint": "Quand une caméra voit quelqu'un, elle joue un son au hasard (parmi ceux du mode surprise) sur son haut-parleur.",
-   "preset_eg": "ex. « Entrée : feu de cheminée + chants à 60 % »"
+   "preset_eg": "ex. « Entrée : feu de cheminée + chants à 60 % »",
+   "bg_amb": "🔥 Ambiances",
+   "hush_hint": "Des lutins au travail toute la nuit, qui se figent au moindre bruit : l'appareil écoute avec son micro, et au moindre bruit tous les sons s'estompent aussitôt, puis reviennent {0} s après le dernier. Ses propres sons ne comptent pas. Gardez la page ouverte : l'écran reste allumé pendant l'écoute."
   }
  },
  "scenes": [
@@ -51,8 +55,8 @@
     },
     {
      "voice": {
-      "fr": "sfx/saint-nicolas/saint-nicholas-bonsoir-les-enfants-c-est-moi-saint-nicolas.mp3",
-      "en": "sfx/saint-nicolas/saint-nicholas-good-evening-children-it-s-me-saint-nicholas.mp3"
+      "en": "sfx/saint-nicolas/saint-nicholas-good-evening-children-it-s-me-saint-nicholas.mp3",
+      "fr": "sfx/saint-nicolas/saint-nicholas-bonsoir-les-enfants-c-est-moi-saint-nicolas.mp3"
      }
     },
     {
@@ -60,8 +64,8 @@
     },
     {
      "voice": {
-      "fr": "sfx/saint-nicolas/saint-nicholas-dites-moi-avez-vous-ete-bien-sages-cette-anne.mp3",
-      "en": "sfx/saint-nicolas/saint-nicholas-tell-me-have-you-been-good-this-year.mp3"
+      "en": "sfx/saint-nicolas/saint-nicholas-tell-me-have-you-been-good-this-year.mp3",
+      "fr": "sfx/saint-nicolas/saint-nicholas-dites-moi-avez-vous-ete-bien-sages-cette-anne.mp3"
      }
     }
    ]
@@ -83,8 +87,8 @@
     },
     {
      "voice": {
-      "fr": "sfx/saint-nicolas/saint-nicholas-allez-au-lit-les-petits-sinon-je-ne-pourrai-p.mp3",
-      "en": "sfx/saint-nicolas/saint-nicholas-off-to-bed-now-little-ones-or-i-cannot-come-i.mp3"
+      "en": "sfx/saint-nicolas/saint-nicholas-off-to-bed-now-little-ones-or-i-cannot-come-i.mp3",
+      "fr": "sfx/saint-nicolas/saint-nicholas-allez-au-lit-les-petits-sinon-je-ne-pourrai-p.mp3"
      }
     },
     {
@@ -120,7 +124,7 @@
     {
      "voice": {
       "en": "sfx/saint-nicolas/pere-fouettard-i-m-keeping-an-eye-on-you.mp3",
-      "fr": "sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-il.mp3"
+      "fr": "sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-oeil.mp3"
      }
     }
    ]
@@ -138,8 +142,8 @@
     "sfx/santa/santa-s-jolly-ho-ho-ho.mp3",
     {
      "voice": {
-      "fr": "sfx/santa/santa-ho-ho-ho-joyeux-noel.mp3",
-      "en": "sfx/santa/santa-ho-ho-ho-merry-christmas-everyone.mp3"
+      "en": "sfx/santa/santa-ho-ho-ho-merry-christmas-everyone.mp3",
+      "fr": "sfx/santa/santa-ho-ho-ho-joyeux-noel.mp3"
      }
     }
    ]
@@ -177,8 +181,8 @@
    "items": [
     {
      "voice": {
-      "fr": "sfx/party/host-dix-neuf-huit-sept-six-cinq-quatre-trois.mp3",
-      "en": "sfx/party/host-ten-nine-eight-seven-six-five-four-three-two-one.mp3"
+      "en": "sfx/party/host-ten-nine-eight-seven-six-five-four-three-two-one.mp3",
+      "fr": "sfx/party/host-dix-neuf-huit-sept-six-cinq-quatre-trois.mp3"
      }
     },
     "sfx/party/champagne-cork-pop.mp3",
@@ -188,6 +192,8 @@
    ]
   }
  ],
+ "mix": true,
+ "hush": true,
  "categories": {
   "saint-nicolas": {
    "name": "Saint Nicholas",
@@ -3091,7 +3097,7 @@
    "source_url": "https://github.com/k2-fsa/OmniVoice"
   },
   {
-   "id": "sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-il.mp3",
+   "id": "sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-oeil.mp3",
    "kind": "sfx",
    "title": "Père Fouettard: \"Je vous ai à l'œil !\"",
    "title_fr": "Père Fouettard : \"Je vous ai à l'œil !\"",
@@ -3100,7 +3106,7 @@
    "default_hidden": false,
    "description": "Père Fouettard, synthesised voice: Je vous ai à l'œil !",
    "duration": 1.49,
-   "url": "sounds/sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-il.mp3",
+   "url": "sounds/sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-oeil.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
    "source_url": "https://github.com/k2-fsa/OmniVoice"
@@ -4525,6 +4531,7 @@
    "title": "Adeste Fideles waltz, music box and cello",
    "title_fr": "Adeste Fideles en valse, boîte à musique et violoncelle",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Calm waltz: repeating music box theme, cello and trumpet. incompetech title: \"Adeste Fideles Waltz\" (ISRC USUAN2100021). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Adeste%20Fideles%20Waltz.mp3",
    "duration": 133.98,
@@ -4553,6 +4560,7 @@
    "title": "Carol of the Bells, concert band",
    "title_fr": "Carol of the Bells, orchestre d'harmonie",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Leontovych's carol, from Christmas from the Rockies (1993). Performance by a United States Air Force band, a work of the U.S. federal government (PD-USGov-Military-Air Force), released by the USAF on its Public Domain Music page (music.af.mil); composition long out of copyright. Commons licence: Pub",
    "duration": 162.12,
@@ -4560,6 +4568,21 @@
    "license": "Public domain",
    "author": "United States Air Force Band of the Rockies (Concert Band)",
    "source_url": "https://commons.wikimedia.org/wiki/File:Carol_of_the_Bells_-_Concert_Band_-_United_States_Air_Force_Band_of_the_Rockies.mp3"
+  },
+  {
+   "id": "music/christmas-carol-antique-music-box.mp3",
+   "kind": "music",
+   "title": "Christmas carol, antique music box",
+   "title_fr": "Chant de Noël, boîte à musique ancienne",
+   "category": "",
+   "group": "music",
+   "default_hidden": false,
+   "description": "A Symphonion disc music box, about 100 years old, playing O Tannenbaum. Freesound 150026.",
+   "duration": 34.19,
+   "url": "sounds/music/christmas-carol-antique-music-box.mp3",
+   "license": "CC0 1.0 (public domain dedication)",
+   "author": "thulitt",
+   "source_url": "https://freesound.org/people/thulitt/sounds/150026/"
   },
   {
    "id": "music/christmas-market-crowd.mp3",
@@ -4574,6 +4597,22 @@
    "license": "CC0 1.0 (public domain dedication)",
    "author": "Pfannkuchn",
    "source_url": "https://freesound.org/people/Pfannkuchn/sounds/457618/"
+  },
+  {
+   "id": "music/christus-ist-geboren-heut-sung.mp3",
+   "kind": "music",
+   "title": "Christus ist geboren heut, sung",
+   "title_fr": "Christus ist geboren heut, chanté",
+   "category": "",
+   "lang": "de",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Christus ist geboren heut\", vocal recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 123.66,
+   "url": "sounds/music/christus-ist-geboren-heut-sung.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/he-is-born-the-divine-christ-child?lang=deu"
   },
   {
    "id": "music/church-bells-ringing-on-christmas-day.mp3",
@@ -4623,6 +4662,7 @@
    "title": "Dance of the Sugar Plum Fairy, orchestra",
    "title_fr": "Danse de la fée Dragée, orchestre",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Tchaikovsky's Nutcracker dance, full orchestra with celesta. incompetech title: \"Dance of the Sugar Plum Fairies\" (ISRC USUAN1100270). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dance%20Of%20The%20Sugar%20Plum%20Fairies.mp3",
    "duration": 103.6,
@@ -4637,6 +4677,7 @@
    "title": "Deck the Halls, peppy",
    "title_fr": "Deck the Halls, version entraînante",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Repeating, peppy sing-along version (piano, clarinet, guitar, flute, drums, tuba). incompetech title: \"Deck the Halls B\" (ISRC USUAN1100368). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Deck%20the%20Halls%20B.mp3",
    "duration": 258.8,
@@ -4644,6 +4685,38 @@
    "license": "CC BY 4.0",
    "author": "Kevin MacLeod (incompetech.com)",
    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100368"
+  },
+  {
+   "id": "music/douce-nuit-choir.mp3",
+   "kind": "music",
+   "title": "Douce nuit, choir",
+   "title_fr": "Douce nuit, chœur",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Silent Night sung in French by a mixed choir with piano. From the album The First Noel (2011, Jamendo album 101735, Internet Archive mirror), licensed CC BY-NC-SA 3.0 by the ensemble (also in the file's ID3 tag).",
+   "duration": 81.48,
+   "url": "sounds/music/douce-nuit-choir.mp3",
+   "license": "CC BY-NC-SA 3.0",
+   "author": "Ensemble Vocal J-Vox",
+   "source_url": "https://archive.org/details/jamendo-101735"
+  },
+  {
+   "id": "music/entre-le-boeuf-et-l-ane-gris-sung.mp3",
+   "kind": "music",
+   "title": "Entre le bœuf et l'âne gris, sung",
+   "title_fr": "Entre le bœuf et l'âne gris, chanté",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Sung in French. From Denis Richard's 2010 Christmas album (Jamendo album 080882, Internet Archive mirror), licensed CC BY-SA 3.0 by the artist (also in the file's ID3 tag).",
+   "duration": 124.84,
+   "url": "sounds/music/entre-le-boeuf-et-l-ane-gris-sung.mp3",
+   "license": "CC BY-SA 3.0",
+   "author": "Denis Richard",
+   "source_url": "https://archive.org/details/jamendo-080882"
   },
   {
    "id": "music/fire-crackling-in-the-fireplace.mp3",
@@ -4679,6 +4752,7 @@
    "title": "Il est né le divin enfant, jazzy brass",
    "title_fr": "Il est né le divin enfant, cuivres jazzy",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Jazzy brass arrangement of the French carol, from Holiday Brass (2000). Performance by a United States Air Force band, a work of the U.S. federal government (PD-USGov-Military-Air Force), released by the USAF on its Public Domain Music page (music.af.mil); composition long out of copyright. Commons ",
    "duration": 196.68,
@@ -4688,11 +4762,28 @@
    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Divin_Enfant_-_Galaxy_Brass_-_United_States_Air_Force_Band_of_the_Rockies.mp3"
   },
   {
+   "id": "music/il-est-ne-le-divin-enfant-soprano-and-piano.mp3",
+   "kind": "music",
+   "title": "Il est né le divin enfant, soprano and piano",
+   "title_fr": "Il est né le divin enfant, soprano et piano",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Il est né le divin Enfant\", vocal recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 123.53,
+   "url": "sounds/music/il-est-ne-le-divin-enfant-soprano-and-piano.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/he-is-born-the-divine-christ-child?lang=fra"
+  },
+  {
    "id": "music/jingle-bells-cheerful-band.mp3",
    "kind": "music",
    "title": "Jingle Bells, cheerful band",
    "title_fr": "Vive le vent, fanfare joyeuse",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Happy, clappy band arrangement (piano, flute, clarinet, horn). incompetech title: \"Jingle Bells\" (ISRC USUAN1100889). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jingle%20Bells.mp3",
    "duration": 137.95,
@@ -4702,11 +4793,92 @@
    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100889"
   },
   {
+   "id": "music/joy-to-the-world-children-s-choir-and-brass.mp3",
+   "kind": "music",
+   "title": "Joy to the World, children's choir and brass",
+   "title_fr": "Joy to the World, chœur d'enfants et cuivres",
+   "category": "",
+   "lang": "en",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Joy to the World sung in English, live at the Radio Hall, Bucharest, 2011-12-11. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0. Applause cut.",
+   "duration": 84.4,
+   "url": "sounds/music/joy-to-the-world-children-s-choir-and-brass.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu, with the Radio Brass Quintet",
+   "source_url": "https://culturalia.ro/entities/b4993100-ab99-4bd4-a45a-bf773e0997a7/view"
+  },
+  {
+   "id": "music/les-anges-dans-nos-campagnes-sung.mp3",
+   "kind": "music",
+   "title": "Les anges dans nos campagnes, sung",
+   "title_fr": "Les anges dans nos campagnes, chanté",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Sung in French. From Denis Richard's 2010 Christmas album (Jamendo album 080882, Internet Archive mirror), licensed CC BY-SA 3.0 by the artist (also in the file's ID3 tag).",
+   "duration": 178.23,
+   "url": "sounds/music/les-anges-dans-nos-campagnes-sung.mp3",
+   "license": "CC BY-SA 3.0",
+   "author": "Denis Richard",
+   "source_url": "https://archive.org/details/jamendo-080882"
+  },
+  {
+   "id": "music/minuit-chretiens-chamber-choir.mp3",
+   "kind": "music",
+   "title": "Minuit, chrétiens, chamber choir",
+   "title_fr": "Minuit, chrétiens, chœur de chambre",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Adolphe Adam's Cantique de Noël (O Holy Night) sung in French, live at the Romanian Athenaeum, 2013-12-23. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0. Applause cut.",
+   "duration": 206.42,
+   "url": "sounds/music/minuit-chretiens-chamber-choir.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Preludiu Chamber Choir (Corul de cameră Preludiu), cond. Voicu Enăchescu",
+   "source_url": "https://culturalia.ro/entities/53d767df-aac6-4eb8-87c8-d3a8c2fb3e8d/view"
+  },
+  {
+   "id": "music/mon-beau-sapin-sung.mp3",
+   "kind": "music",
+   "title": "Mon beau sapin, sung",
+   "title_fr": "Mon beau sapin, chanté",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Sung in French. From Denis Richard's 2010 Christmas album (Jamendo album 080882, Internet Archive mirror), licensed CC BY-SA 3.0 by the artist (also in the file's ID3 tag).",
+   "duration": 150.6,
+   "url": "sounds/music/mon-beau-sapin-sung.mp3",
+   "license": "CC BY-SA 3.0",
+   "author": "Denis Richard",
+   "source_url": "https://archive.org/details/jamendo-080882"
+  },
+  {
+   "id": "music/noel-nouvelet-children-s-choir.mp3",
+   "kind": "music",
+   "title": "Noël nouvelet, children's choir",
+   "title_fr": "Noël nouvelet, chœur d'enfants",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Noël nouvelet sung in French, in canon; studio recording remastered 2014. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0.",
+   "duration": 67.11,
+   "url": "sounds/music/noel-nouvelet-children-s-choir.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu",
+   "source_url": "https://culturalia.ro/entities/22a8e042-1358-47ed-9c11-e894d75de1d3/view"
+  },
+  {
    "id": "music/nouvelle-noel-jazzy-bells.mp3",
    "kind": "music",
    "title": "Nouvelle Noël, jazzy bells",
    "title_fr": "Nouvelle Noël, jazz et clochettes",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Bright, bouncy, relaxed original with bells, vibraphone, guitar and piano. incompetech title: \"Nouvelle Noel\" (ISRC USUAN1700072). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Nouvelle%20Noel.mp3",
    "duration": 186.83,
@@ -4716,11 +4888,28 @@
    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700072"
   },
   {
+   "id": "music/o-come-all-ye-faithful-choir-and-brass.mp3",
+   "kind": "music",
+   "title": "O Come, All Ye Faithful, choir and brass",
+   "title_fr": "O Come, All Ye Faithful, chœur et cuivres",
+   "category": "",
+   "lang": "en",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Sung in English (arr. David Willcocks), live at the Radio Hall, Bucharest, 2011-12-11. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0. Applause cut.",
+   "duration": 171.42,
+   "url": "sounds/music/o-come-all-ye-faithful-choir-and-brass.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Radio România Academic Choir (Corul Academic Radio), cond. Voicu Popescu, with the Romanian Brass Quintet",
+   "source_url": "https://culturalia.ro/entities/314748e0-3eac-4fff-86b1-83ab67be9c6b/view"
+  },
+  {
    "id": "music/o-holy-night-concert-band.mp3",
    "kind": "music",
    "title": "O Holy Night, concert band",
    "title_fr": "Minuit, chrétiens, orchestre d'harmonie",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Adolphe Adam's Cantique de Noël, arranged by MSgt Steve Shafer, from Holiday Fantasies (2000). Performance by a United States Air Force band, a work of the U.S. federal government (PD-USGov-Military-Air Force), released by the USAF on its Public Domain Music page (music.af.mil); composition long out",
    "duration": 246.78,
@@ -4735,6 +4924,7 @@
    "title": "Parade of the Wooden Soldiers, concert band",
    "title_fr": "La Parade des soldats de bois, orchestre d'harmonie",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Leon Jessel's toy-soldier march (1897), from the album A Musical Christmas (2007). Performance by a United States Air Force band, a work of the U.S. federal government (PD-USGov-Military-Air Force), released by the USAF on its Public Domain Music page (music.af.mil); composition long out of copyrigh",
    "duration": 223.76,
@@ -4744,11 +4934,44 @@
    "source_url": "https://commons.wikimedia.org/wiki/File:Parade_of_the_Wooden_Soldiers_-_Concert_Band_-_United_States_Air_Force_Band_of_Mid-America.mp3"
   },
   {
+   "id": "music/quel-est-l-enfant-voice-and-piano.mp3",
+   "kind": "music",
+   "title": "Quel est l'Enfant ?, voice and piano",
+   "title_fr": "Quel est l'Enfant ?, voix et piano",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Quel est l’Enfant ?\", vocal recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 150.2,
+   "url": "sounds/music/quel-est-l-enfant-voice-and-piano.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/what-child-is-this?lang=fra"
+  },
+  {
+   "id": "music/silent-night-choir-and-organ.mp3",
+   "kind": "music",
+   "title": "Silent Night, choir and organ",
+   "title_fr": "Silent Night, chœur et orgue",
+   "category": "",
+   "lang": "en",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Silent Night\", vocal congregation recording from Hymns (1985), The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 184.48,
+   "url": "sounds/music/silent-night-choir-and-organ.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns (1985))",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/silent-night?lang=eng"
+  },
+  {
    "id": "music/silent-night-piano.mp3",
    "kind": "music",
    "title": "Silent Night, piano",
    "title_fr": "Douce nuit, piano",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Calm solo piano Silent Night. incompetech title: \"Silent Night\" (ISRC USUAN1100075). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Silent%20Night.mp3",
    "duration": 128.73,
@@ -4772,11 +4995,76 @@
    "source_url": "https://sound-effects.bbcrewind.co.uk/search?q=07040020"
   },
   {
+   "id": "music/still-still-still-choir-and-piano.mp3",
+   "kind": "music",
+   "title": "Still, still, still, choir and piano",
+   "title_fr": "Still, still, still, chœur et piano",
+   "category": "",
+   "lang": "de",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Still, still, still\", vocal congregation recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 117.29,
+   "url": "sounds/music/still-still-still-choir-and-piano.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/still-still-still?lang=deu"
+  },
+  {
+   "id": "music/stille-nacht-chamber-choir.mp3",
+   "kind": "music",
+   "title": "Stille Nacht, chamber choir",
+   "title_fr": "Stille Nacht, chœur de chambre",
+   "category": "",
+   "lang": "de",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Stille Nacht sung in German, live at the Romanian Athenaeum, 2013-12-23. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0. Applause cut.",
+   "duration": 256.24,
+   "url": "sounds/music/stille-nacht-chamber-choir.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Preludiu Chamber Choir (Corul de cameră Preludiu), cond. Voicu Enăchescu",
+   "source_url": "https://culturalia.ro/entities/1a9f0bfc-1b2a-4c3d-b2dd-8025244fba5a/view"
+  },
+  {
+   "id": "music/stille-nacht-children-s-choir-and-brass.mp3",
+   "kind": "music",
+   "title": "Stille Nacht, children's choir and brass",
+   "title_fr": "Stille Nacht, chœur d'enfants et cuivres",
+   "category": "",
+   "lang": "de",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Stille Nacht sung in German, live at the Radio Hall, Bucharest, 2011-12-11. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0. Applause cut.",
+   "duration": 212.27,
+   "url": "sounds/music/stille-nacht-children-s-choir-and-brass.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu, with the Radio Brass Quintet",
+   "source_url": "https://culturalia.ro/entities/dea32c45-a19c-48cc-8638-eb39b6f295a8/view"
+  },
+  {
+   "id": "music/tout-est-calme-enfin-choir.mp3",
+   "kind": "music",
+   "title": "Tout est calme enfin, choir",
+   "title_fr": "Tout est calme enfin, chœur",
+   "category": "",
+   "lang": "fr",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Tout est calme enfin\", vocal congregation recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 118.75,
+   "url": "sounds/music/tout-est-calme-enfin-choir.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/still-still-still?lang=fra"
+  },
+  {
    "id": "music/up-on-the-housetop-bouncy.mp3",
    "kind": "music",
    "title": "Up on the Housetop, bouncy",
    "title_fr": "Up on the Housetop, sautillant",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Super-bouncy holiday sing-along (piano, tuba, drums, saxes). incompetech title: \"Up on a Housetop\" (ISRC USUAN1100365). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Up%20on%20a%20Housetop.mp3",
    "duration": 66.19,
@@ -4791,6 +5079,7 @@
    "title": "Waltz of the Flowers, Nutcracker",
    "title_fr": "Valse des fleurs, Casse-Noisette",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Tchaikovsky's Waltz of the Flowers (The Nutcracker, 1892), live at DAR Constitution Hall, Washington, December 2019. Performance by the U.S. Army Band, a U.S. federal government work (PD-USA on Commons); quiet live recording. Commons licence: Public domain (PD/1923|1893, PD-USA).",
    "duration": 397.98,
@@ -4805,6 +5094,7 @@
    "title": "We Wish You a Merry Christmas, orchestral",
    "title_fr": "We Wish You a Merry Christmas, orchestre",
    "category": "",
+   "group": "music",
    "default_hidden": false,
    "description": "Starts slowly and accelerates as it builds (oboe, celesta, strings, piano). incompetech title: \"We Wish you a Merry Christmas\" (ISRC USUAN1100369). MP3: https://incompetech.com/music/royalty-free/mp3-royaltyfree/We%20Wish%20You.mp3",
    "duration": 130.72,
@@ -4812,6 +5102,54 @@
    "license": "CC BY 4.0",
    "author": "Kevin MacLeod (incompetech.com)",
    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100369"
+  },
+  {
+   "id": "music/wen-wiegt-maria-sanft-im-arm-voice-and-piano.mp3",
+   "kind": "music",
+   "title": "Wen wiegt Maria sanft im Arm?, voice and piano",
+   "title_fr": "Wen wiegt Maria sanft im Arm ?, voix et piano",
+   "category": "",
+   "lang": "de",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"Wen wiegt Maria sanft im Arm?\", vocal recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 150.0,
+   "url": "sounds/music/wen-wiegt-maria-sanft-im-arm-voice-and-piano.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/what-child-is-this?lang=deu"
+  },
+  {
+   "id": "music/wenn-ich-ein-glocklein-war-children-s-choir.mp3",
+   "kind": "music",
+   "title": "Wenn ich ein Glöcklein wär, children's choir",
+   "title_fr": "Wenn ich ein Glöcklein wär, chœur d'enfants",
+   "category": "",
+   "lang": "de",
+   "group": "music",
+   "default_hidden": false,
+   "description": "Austrian Christmas song (\"If I were a little bell\"), sung in German; studio recording remastered 2014. Radio România (SRR) archive, published by the broadcaster on Culturalia / Europeana under CC BY-SA 4.0.",
+   "duration": 127.43,
+   "url": "sounds/music/wenn-ich-ein-glocklein-war-children-s-choir.mp3",
+   "license": "CC BY-SA 4.0",
+   "author": "Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu",
+   "source_url": "https://culturalia.ro/entities/c1c61941-ee6e-478e-8473-f4135e0f2391/view"
+  },
+  {
+   "id": "music/what-child-is-this-choir-and-piano.mp3",
+   "kind": "music",
+   "title": "What Child Is This?, choir and piano",
+   "title_fr": "What Child Is This?, chœur et piano",
+   "category": "",
+   "lang": "en",
+   "group": "music",
+   "default_hidden": false,
+   "description": "\"What Child Is This?\", vocal congregation recording from Hymns—For Home and Church, The Church of Jesus Christ of Latter-day Saints. © Intellectual Reserve, Inc.; used for personal, non-commercial purposes.",
+   "duration": 149.79,
+   "url": "sounds/music/what-child-is-this-choir-and-piano.mp3",
+   "license": "© Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use",
+   "author": "The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church)",
+   "source_url": "https://www.churchofjesuschrist.org/media/music/songs/what-child-is-this?lang=eng"
   },
   {
    "id": "music/wind-moaning-down-the-chimney.mp3",

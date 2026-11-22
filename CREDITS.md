@@ -5,34 +5,54 @@ We claim no rights over them. CC BY and CC BY-NC require this attribution; CC BY
 commercial use of those sounds; CC BY-SA ones stay under CC BY-SA. Changes made: effects are trimmed of
 leading and trailing silence and loudness-normalised (EBU R128), some are cut from a longer recording.
 
-297 effects and 24 background tracks: 87 under CC0 1.0 (public domain dedication), 87 under CC BY-NC 4.0, 56 under CC BY 4.0, 37 under Mixkit Sound Effects Free License (mixkit.co), 27 under BBC RemArc licence (BBC Sound Effects archive), 14 under Public domain, 7 under CC BY 3.0, 4 under CC BY-SA 4.0, 2 under CC BY-NC 3.0.
+297 effects and 44 background tracks: 88 under CC0 1.0 (public domain dedication), 87 under CC BY-NC 4.0, 56 under CC BY 4.0, 37 under Mixkit Sound Effects Free License (mixkit.co), 27 under BBC RemArc licence (BBC Sound Effects archive), 14 under Public domain, 11 under CC BY-SA 4.0, 8 under © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use, 7 under CC BY 3.0, 3 under CC BY-SA 3.0, 2 under CC BY-NC 3.0, 1 under CC BY-NC-SA 3.0.
 
 | Sound | Category | Author | License | Source |
 |---|---|---|---|---|
-| Adeste Fideles waltz, music box and cello | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100021) |
-| Busy New Year's Eve dinner | Background | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07011350) |
-| Carol of the Bells, concert band | Background | United States Air Force Band of the Rockies (Concert Band) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Carol_of_the_Bells_-_Concert_Band_-_United_States_Air_Force_Band_of_the_Rockies.mp3) |
-| Christmas market crowd | Background | Pfannkuchn | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/Pfannkuchn/sounds/457618/) |
-| Church bells ringing on Christmas Day | Background | vonfleisch | CC BY 3.0 | [link](https://freesound.org/people/vonfleisch/sounds/212037/) |
-| Cosy fireplace fire | Background | NoOneIsReal | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/NoOneIsReal/sounds/387128/) |
-| Crackling wood fire | Background | Graham Ross / BBC Natural History Unit | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=NHU05008080) |
-| Dance of the Sugar Plum Fairy, orchestra | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100270) |
-| Deck the Halls, peppy | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100368) |
-| Fire crackling in the fireplace | Background | silencyo | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/silencyo/sounds/81801/) |
-| Horse-drawn sleigh ride | Background | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07000055) |
-| Il est né le divin enfant, jazzy brass | Background | United States Air Force Band of the Rockies (Galaxy Brass) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Le_Divin_Enfant_-_Galaxy_Brass_-_United_States_Air_Force_Band_of_the_Rockies.mp3) |
-| Jingle Bells, cheerful band | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100889) |
-| Nouvelle Noël, jazzy bells | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700072) |
-| O Holy Night, concert band | Background | United States Air Force Band of the Golden West (Concert Band) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Cantique_de_No%C3%ABl_(O_Holy_Night)_-_Concert_Band_-_United_States_Air_Force_Band_of_the_Golden_West.mp3) |
-| Parade of the Wooden Soldiers, concert band | Background | United States Air Force Band of Mid-America (Concert Band) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Parade_of_the_Wooden_Soldiers_-_Concert_Band_-_United_States_Air_Force_Band_of_Mid-America.mp3) |
-| Silent Night, piano | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100075) |
-| St Nicholas' Church bells | Background | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07040020) |
-| Up on the Housetop, bouncy | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100365) |
-| Waltz of the Flowers, Nutcracker | Background | U.S. Army Band "Pershing's Own" | Public domain | [link](https://commons.wikimedia.org/wiki/File:P.I._Tchaikovsky%27s_Waltz_of_the_Flowers_Performed_by_The_U.S._Army_Band,_c._2019.mp3) |
-| We Wish You a Merry Christmas, orchestral | Background | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100369) |
-| Wind moaning down the chimney | Background | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07038340) |
-| Winter night: wind in icy branches, light snow falling | Background | daveincamas | CC BY 4.0 | [link](https://freesound.org/people/daveincamas/sounds/65247/) |
-| Wood fire in a living room fireplace | Background | flwrpwr | CC BY 3.0 | [link](https://freesound.org/people/flwrpwr/sounds/614885/) |
+| Adeste Fideles waltz, music box and cello | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100021) |
+| Busy New Year's Eve dinner | Ambience | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07011350) |
+| Carol of the Bells, concert band | Music | United States Air Force Band of the Rockies (Concert Band) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Carol_of_the_Bells_-_Concert_Band_-_United_States_Air_Force_Band_of_the_Rockies.mp3) |
+| Christmas carol, antique music box | Music | thulitt | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/thulitt/sounds/150026/) |
+| Christmas market crowd | Ambience | Pfannkuchn | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/Pfannkuchn/sounds/457618/) |
+| Christus ist geboren heut, sung | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/he-is-born-the-divine-christ-child?lang=deu) |
+| Church bells ringing on Christmas Day | Ambience | vonfleisch | CC BY 3.0 | [link](https://freesound.org/people/vonfleisch/sounds/212037/) |
+| Cosy fireplace fire | Ambience | NoOneIsReal | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/NoOneIsReal/sounds/387128/) |
+| Crackling wood fire | Ambience | Graham Ross / BBC Natural History Unit | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=NHU05008080) |
+| Dance of the Sugar Plum Fairy, orchestra | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100270) |
+| Deck the Halls, peppy | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100368) |
+| Douce nuit, choir | Music | Ensemble Vocal J-Vox | CC BY-NC-SA 3.0 | [link](https://archive.org/details/jamendo-101735) |
+| Entre le bœuf et l'âne gris, sung | Music | Denis Richard | CC BY-SA 3.0 | [link](https://archive.org/details/jamendo-080882) |
+| Fire crackling in the fireplace | Ambience | silencyo | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/silencyo/sounds/81801/) |
+| Horse-drawn sleigh ride | Ambience | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07000055) |
+| Il est né le divin enfant, jazzy brass | Music | United States Air Force Band of the Rockies (Galaxy Brass) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Le_Divin_Enfant_-_Galaxy_Brass_-_United_States_Air_Force_Band_of_the_Rockies.mp3) |
+| Il est né le divin enfant, soprano and piano | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/he-is-born-the-divine-christ-child?lang=fra) |
+| Jingle Bells, cheerful band | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100889) |
+| Joy to the World, children's choir and brass | Music | Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu, with the Radio Brass Quintet | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/b4993100-ab99-4bd4-a45a-bf773e0997a7/view) |
+| Les anges dans nos campagnes, sung | Music | Denis Richard | CC BY-SA 3.0 | [link](https://archive.org/details/jamendo-080882) |
+| Minuit, chrétiens, chamber choir | Music | Preludiu Chamber Choir (Corul de cameră Preludiu), cond. Voicu Enăchescu | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/53d767df-aac6-4eb8-87c8-d3a8c2fb3e8d/view) |
+| Mon beau sapin, sung | Music | Denis Richard | CC BY-SA 3.0 | [link](https://archive.org/details/jamendo-080882) |
+| Noël nouvelet, children's choir | Music | Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/22a8e042-1358-47ed-9c11-e894d75de1d3/view) |
+| Nouvelle Noël, jazzy bells | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700072) |
+| O Come, All Ye Faithful, choir and brass | Music | Radio România Academic Choir (Corul Academic Radio), cond. Voicu Popescu, with the Romanian Brass Quintet | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/314748e0-3eac-4fff-86b1-83ab67be9c6b/view) |
+| O Holy Night, concert band | Music | United States Air Force Band of the Golden West (Concert Band) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Cantique_de_No%C3%ABl_(O_Holy_Night)_-_Concert_Band_-_United_States_Air_Force_Band_of_the_Golden_West.mp3) |
+| Parade of the Wooden Soldiers, concert band | Music | United States Air Force Band of Mid-America (Concert Band) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Parade_of_the_Wooden_Soldiers_-_Concert_Band_-_United_States_Air_Force_Band_of_Mid-America.mp3) |
+| Quel est l'Enfant ?, voice and piano | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/what-child-is-this?lang=fra) |
+| Silent Night, choir and organ | Music | The Church of Jesus Christ of Latter-day Saints (Hymns (1985)) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/silent-night?lang=eng) |
+| Silent Night, piano | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100075) |
+| St Nicholas' Church bells | Ambience | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07040020) |
+| Still, still, still, choir and piano | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/still-still-still?lang=deu) |
+| Stille Nacht, chamber choir | Music | Preludiu Chamber Choir (Corul de cameră Preludiu), cond. Voicu Enăchescu | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/1a9f0bfc-1b2a-4c3d-b2dd-8025244fba5a/view) |
+| Stille Nacht, children's choir and brass | Music | Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu, with the Radio Brass Quintet | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/dea32c45-a19c-48cc-8638-eb39b6f295a8/view) |
+| Tout est calme enfin, choir | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/still-still-still?lang=fra) |
+| Up on the Housetop, bouncy | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100365) |
+| Waltz of the Flowers, Nutcracker | Music | U.S. Army Band "Pershing's Own" | Public domain | [link](https://commons.wikimedia.org/wiki/File:P.I._Tchaikovsky%27s_Waltz_of_the_Flowers_Performed_by_The_U.S._Army_Band,_c._2019.mp3) |
+| We Wish You a Merry Christmas, orchestral | Music | Kevin MacLeod (incompetech.com) | CC BY 4.0 | [link](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100369) |
+| Wen wiegt Maria sanft im Arm?, voice and piano | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/what-child-is-this?lang=deu) |
+| Wenn ich ein Glöcklein wär, children's choir | Music | Radio România Children's Choir (Corul de Copii Radio), cond. Voicu Popescu | CC BY-SA 4.0 | [link](https://culturalia.ro/entities/c1c61941-ee6e-478e-8473-f4135e0f2391/view) |
+| What Child Is This?, choir and piano | Music | The Church of Jesus Christ of Latter-day Saints (Hymns—For Home and Church) | © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use | [link](https://www.churchofjesuschrist.org/media/music/songs/what-child-is-this?lang=eng) |
+| Wind moaning down the chimney | Ambience | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07038340) |
+| Winter night: wind in icy branches, light snow falling | Ambience | daveincamas | CC BY 4.0 | [link](https://freesound.org/people/daveincamas/sounds/65247/) |
+| Wood fire in a living room fireplace | Ambience | flwrpwr | CC BY 3.0 | [link](https://freesound.org/people/flwrpwr/sounds/614885/) |
 | Bar chimes sweeping up | Bells & jingles | pjcohen | CC BY 4.0 | [link](https://freesound.org/people/pjcohen/sounds/414559/) |
 | Bells of Saint-Nicolas church, Wasquehal | Bells & jingles | Julien Massa | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Cloches_de_l%27%C3%A9glise_Saint-Nicolas_de_Wasquehal.ogg) |
 | Christmas handbell ringing | Bells & jingles | Alexander (Orange Free Sounds) | CC BY 4.0 | [link](https://orangefreesounds.com/christmas-hand-bell-ringing-sound-effect/) |
