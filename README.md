@@ -1,6 +1,6 @@
 # 🎄 Christmas Soundboard
 
-A free, festive soundboard for December: 297 sound effects (sleigh bells, Santa's "ho ho ho",
+A free, festive soundboard for December: 332 sound effects (sleigh bells, Santa's "ho ho ho",
 Saint Nicholas, his donkey and his knock at the door, elves at work, presents, a crackling fire,
 New Year's countdown...) and 44 carols and ambiences you can mix together. Tap a sound and it
 plays. Tap several and they line up. Or turn on **surprise mode** and let it play by itself, and
@@ -18,6 +18,10 @@ English, French and German. Works offline. No sign-up, no ads.
   have been good (Père Fouettard too, for the cheeky ones).
 - **🎅 Santa's night.** Sleigh bells landing on the roof, reindeer, the chimney, cookies and milk,
   "Ho ho ho! Merry Christmas!".
+- **🧝 Elves in the night.** A ten-minute scene, one tap: elves tiptoe in, wrap presents (paper,
+  scissors, tape, tiny bells), whisper ("Shh! You'll wake them up!", "Did you hear that?"), nibble
+  Santa's cookie and tiptoe out. Saint Nicholas arriving, Santa landing on the roof, present time
+  and the New Year countdown are one tap too.
 - **🗣️ Voices in English and French.** Every character speaks both. The 🗣️ EN / FR switch above
   the sounds shows one language or both; it starts with the language of the page.
 - **✨ Surprise mode.** A random sound every few seconds (you choose the range, say 20 to 90 s),
@@ -25,7 +29,7 @@ English, French and German. Works offline. No sign-up, no ads.
 - **🤫 Hush at the slightest noise.** Elves wrapping presents all night, who freeze when someone
   comes down the stairs: turn it on in the Settings tab and the phone listens with its microphone.
   At a noise, every sound fades out at once and comes back 10 s after the last one (you choose,
-  3 to 60 s). It knows what it is playing, so its own sounds don't set it off, even through a
+  3 to 60 s); a scene waits meanwhile and goes on where it stopped. It knows what it is playing, so its own sounds don't set it off, even through a
   Bluetooth speaker. A sensitivity slider, and a 30 s test that draws what the microphone hears
   and the line a noise must cross. Off by default; nothing is recorded or sent anywhere.
 - **🎶 Music and 🌫️ ambiences.** The background is split in two: tick a carol (or several, they
@@ -47,8 +51,9 @@ English, French and German. Works offline. No sign-up, no ads.
 
 Best trick: on the evening of 5 December, pair your phone with a Bluetooth speaker near the front
 door. Little bells, a donkey, three knocks, and Saint Nicholas says good evening. And on Christmas
-Eve, leave the elves at work under the tree with surprise mode and hush on: they go quiet the
-moment someone sneaks in.
+Eve, hide the phone under the tree and play 🧝 Elves in the night with hush on (and Loop, in the
+queue options, for the whole night): the elves freeze the moment someone sneaks in, and go back to
+work once all is quiet.
 
 ## A sibling of the Halloween Soundboard
 
@@ -82,7 +87,7 @@ with GitHub Actions (`.github/workflows/pages.yml`).
 
 ## Credits
 
-The sounds belong to their authors and are used under their licenses: 88 under CC0 1.0 (public domain dedication), 87 under CC BY-NC 4.0, 56 under CC BY 4.0, 37 under Mixkit Sound Effects Free License (mixkit.co), 27 under BBC RemArc licence (BBC Sound Effects archive), 14 under Public domain, 11 under CC BY-SA 4.0, 8 under © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use, 7 under CC BY 3.0, 3 under CC BY-SA 3.0, 2 under CC BY-NC 3.0, 1 under CC BY-NC-SA 3.0.
+The sounds belong to their authors and are used under their licenses: 119 under CC BY-NC 4.0, 90 under CC0 1.0 (public domain dedication), 57 under CC BY 4.0, 37 under Mixkit Sound Effects Free License (mixkit.co), 27 under BBC RemArc licence (BBC Sound Effects archive), 14 under Public domain, 11 under CC BY-SA 4.0, 8 under © Intellectual Reserve, Inc. (The Church of Jesus Christ of Latter-day Saints), personal non-commercial use, 7 under CC BY 3.0, 3 under CC BY-SA 3.0, 2 under CC BY-NC 3.0, 1 under CC BY-NC-SA 3.0.
 We claim no rights over them. Sounds under CC BY-NC (and BY-NC-SA) may not be used commercially; the
 Mixkit and BBC Sound Effects sounds stay under the Mixkit and BBC RemArc licenses. The carols come from
 the Radio România archive (its choirs, CC BY-SA 4.0, on Europeana), Denis Richard and Ensemble Vocal
@@ -156,6 +161,7 @@ so they are shared under CC BY-NC 4.0. The full list is in [CREDITS.md](CREDITS.
 | Horse trotting with sleigh bells | Bells & jingles | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07039321) |
 | Jingling sleigh bells | Bells & jingles | Alexander (Orange Free Sounds) | CC BY-NC 4.0 | [link](https://orangefreesounds.com/sleigh-bells-ringing-sound-effect-festive-holiday-jingle/) |
 | Large handbell ringing | Bells & jingles | Tewkesound | CC BY 4.0 | [link](https://freesound.org/people/Tewkesound/sounds/140150/) |
+| Little bells jingling softly with every move | Bells & jingles | pogmothoin | CC BY 4.0 | [link](https://freesound.org/people/pogmothoin/sounds/401308/) |
 | Paris church bells, clock striking twelve | Bells & jingles | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07049101) |
 | Sleigh bells coming and going | Bells & jingles | benjaminflack | CC BY-NC 4.0 | [link](https://freesound.org/people/benjaminflack/sounds/44293/) |
 | Sleigh bells in rhythm | Bells & jingles | JustinAmolsch | CC BY 3.0 | [link](https://freesound.org/people/JustinAmolsch/sounds/547582/) |
@@ -164,6 +170,7 @@ so they are shared under CC BY-NC 4.0. The full list is in [CREDITS.md](CREDITS.
 | Sleigh bells ringing | Bells & jingles | BBC | BBC RemArc licence (BBC Sound Effects archive) | [link](https://sound-effects.bbcrewind.co.uk/search?q=07012094) |
 | Sleigh bells shaken | Bells & jingles | Mixkit | Mixkit Sound Effects Free License (mixkit.co) | [link](https://mixkit.co/free-sound-effects/sleigh-bells/) |
 | Small bell, single ping | Bells & jingles | steffcaffrey | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/steffcaffrey/sounds/452379/) |
+| Tiny bells jingling | Bells & jingles | Reitanna | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/Reitanna/sounds/323731/) |
 | Wind chimes in the breeze | Bells & jingles | acclivity | CC BY-NC 4.0 | [link](https://freesound.org/people/acclivity/sounds/30606/) |
 | Wind chimes | Bells & jingles | Mixkit | Mixkit Sound Effects Free License (mixkit.co) | [link](https://mixkit.co/free-sound-effects/win/) |
 | Angels We Have Heard on High, a cappella choir | Jingles & carols | U.S. Army Band "Pershing's Own" (chorus) | Public domain | [link](https://commons.wikimedia.org/wiki/File:U.S._Army_Band_-_Angels_We_Have_Heard_on_High.ogg) |
@@ -200,13 +207,46 @@ so they are shared under CC BY-NC 4.0. The full list is in [CREDITS.md](CREDITS.
 | Elf: "Qui veut un cadeau ?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
 | Elf: "Quick, quick! Only one more night until Christmas!" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
 | Elf: "Vite, vite ! Plus qu'une nuit avant Noël !" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Careful with the bow..." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Chut ! Tout le monde dort ?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Chut ! Tu vas les réveiller !" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Doucement avec le nœud..." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Encore un cadeau, et on file." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Hé ! Les biscuits, c'est pour le Père Noël !" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Hey! Those cookies are for Santa!" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "No... nothing. Let's carry on." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Non... rien. On continue." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "One last present, and off we go." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Pose-le sous le sapin, tout au fond." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Put it under the tree, right at the back." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Quick, before the sun comes up!" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Red ribbon, or gold ribbon?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Ruban rouge, ruban doré ?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Shh! Is everyone asleep?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Shh! You'll wake them up!" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Elf, whispering: "Vite, avant que le soleil se lève !" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
 | Elf: "Who wants a present?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
 | Hammering nails into wood | Elves' workshop | blukotek | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/blukotek/sounds/337816/) |
 | Jack-in-the-box cranked until it pops | Elves' workshop | Legacy_of_Sound | CC BY-NC 4.0 | [link](https://freesound.org/people/Legacy_of_Sound/sounds/185502/) |
+| Little elf, whispering: "And this one is for the little one." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Bonne nuit, les enfants... faites de beaux rêves." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Did you hear that?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Doré ! Toujours doré." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Et celui-là, c'est pour le plus petit." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Gold! Always gold." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Good night, children... sweet dreams." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Hee hee... just one crumb." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Hi hi... juste une miette." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Oof... this one is heavy!" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Ouf... il est lourd, celui-là !" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Oui... sur la pointe des pieds, et pas un bruit." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Tu as entendu ?" | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
+| Little elf, whispering: "Yes... on tiptoe, and not a sound." | Elves' workshop | OmniVoice (k2-fsa), synthesised for this soundboard | CC BY-NC 4.0 | [link](https://github.com/k2-fsa/OmniVoice) |
 | Little toy ratchet | Elves' workshop | monotraum | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/monotraum/sounds/376195/) |
 | Rubber duck squeaking | Elves' workshop | LamaMakesMusic | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/LamaMakesMusic/sounds/403507/) |
 | Sawing wood by hand | Elves' workshop | JoelAudio | CC BY 4.0 | [link](https://freesound.org/people/JoelAudio/sounds/135860/) |
 | Squeaky toy | Elves' workshop | Mixkit | Mixkit Sound Effects Free License (mixkit.co) | [link](https://mixkit.co/free-sound-effects/toy/) |
+| Tiptoeing footsteps and a whispered shh | Elves' workshop | ShoelessJess | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/ShoelessJess/sounds/611160/) |
 | Toy drum | Elves' workshop | nicStage | CC BY 4.0 | [link](https://freesound.org/people/nicStage/sounds/67319/) |
 | Toy music box lullaby | Elves' workshop | Mixkit | Mixkit Sound Effects Free License (mixkit.co) | [link](https://mixkit.co/free-sound-effects/toy/) |
 | Toy train tooting along the track | Elves' workshop | craigsmith | CC0 1.0 (public domain dedication) | [link](https://freesound.org/people/craigsmith/sounds/480004/) |
@@ -448,16 +488,17 @@ by Pictogrammers (Apache 2.0).
 
 ## En français
 
-Une boîte à sons de Noël gratuite : 297 effets (grelots de traîneau, le « ho ho ho » du
+Une boîte à sons de Noël gratuite : 332 effets (grelots de traîneau, le « ho ho ho » du
 Père Noël, Saint Nicolas, son âne et ses trois coups à la porte, l'atelier des lutins, les cadeaux,
 un feu qui crépite, le compte à rebours du Nouvel An...) et 44 chants et ambiances à
 mélanger, la musique d'un côté (chants en français, anglais et allemand), les ambiances de
 l'autre. Les personnages parlent anglais et français : le bouton 🗣️ EN / FR choisit les voix
 affichées. Touchez un son, il part. Touchez-en plusieurs, ils s'enchaînent. Ou lancez le
 **mode surprise** et laissez-le jouer tout seul, avec le **silence au moindre bruit** : le
-téléphone écoute avec son micro, et des lutins au travail sous le sapin se taisent dès que
-quelqu'un approche, puis reprennent 10 s après le dernier bruit (ses propres sons ne comptent
-pas). L'interface suit la langue du navigateur (bouton EN / FR en haut), s'installe comme une
+téléphone écoute avec son micro, et des lutins au travail sous le sapin (la scène 🧝 Les lutins
+de la nuit : dix minutes de pas feutrés, de papier cadeau et de chuchotements) se figent dès que
+quelqu'un approche, puis reprennent là où ils en étaient 10 s après le dernier bruit (ses propres
+sons ne comptent pas). L'interface suit la langue du navigateur (bouton EN / FR en haut), s'installe comme une
 appli et fonctionne hors ligne. Rien ne quitte votre navigateur, pas même le micro.
 
 ## License

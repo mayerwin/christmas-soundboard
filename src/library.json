@@ -20,7 +20,7 @@
    "motion_hint": "When a camera sees a person, it plays a random sound (from the surprise pool) on that camera's speaker.",
    "preset_eg": "e.g. “Porch: fireplace + carols at 60 %”",
    "bg_amb": "🔥 Ambiences",
-   "hush_hint": "Elves at work all night, who freeze at the slightest noise: this device listens with its microphone, and at a noise every sound fades out at once, coming back {0} s after the last one. Its own sounds don't count. Keep this page open: the screen stays on while it listens."
+   "hush_hint": "Elves at work all night, who freeze at the slightest noise: this device listens with its microphone, and at a noise every sound fades out at once, coming back {0} s after the last one; a scene waits, then goes on where it stopped. Its own sounds don't count. Try it with the scene 🧝 Elves in the night (Loop, in the queue options, keeps it going all night). Keep this page open: the screen stays on while it listens."
   },
   "fr": {
    "haunt": "Mode surprise",
@@ -33,7 +33,7 @@
    "motion_hint": "Quand une caméra voit quelqu'un, elle joue un son au hasard (parmi ceux du mode surprise) sur son haut-parleur.",
    "preset_eg": "ex. « Entrée : feu de cheminée + chants à 60 % »",
    "bg_amb": "🔥 Ambiances",
-   "hush_hint": "Des lutins au travail toute la nuit, qui se figent au moindre bruit : l'appareil écoute avec son micro, et au moindre bruit tous les sons s'estompent aussitôt, puis reviennent {0} s après le dernier. Ses propres sons ne comptent pas. Gardez la page ouverte : l'écran reste allumé pendant l'écoute."
+   "hush_hint": "Des lutins au travail toute la nuit, qui se figent au moindre bruit : l'appareil écoute avec son micro, et au moindre bruit tous les sons s'estompent aussitôt, puis reviennent {0} s après le dernier ; une scène attend, puis reprend là où elle s'était arrêtée. Ses propres sons ne comptent pas. Essayez avec la scène 🧝 Les lutins de la nuit (Boucle, dans les options de la file, la fait durer toute la nuit). Gardez la page ouverte : l'écran reste allumé pendant l'écoute."
   }
  },
  "scenes": [
@@ -127,6 +127,209 @@
       "fr": "sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-oeil.mp3"
      }
     }
+   ]
+  },
+  {
+   "id": "elves-night",
+   "name": "Elves in the night",
+   "name_fr": "Les lutins de la nuit",
+   "emoji": "🧝",
+   "items": [
+    "sfx/magic/sparkling-chime-tinkle.mp3",
+    {
+     "pause": 4
+    },
+    "sfx/elves/tiptoeing-footsteps-and-a-whispered-shh.mp3",
+    {
+     "pause": 2
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-shh-is-everyone-asleep.mp3",
+      "fr": "sfx/elves/elf-whispering-chut-tout-le-monde-dort.mp3"
+     }
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-yes-on-tiptoe-and-not-a-sound.mp3",
+      "fr": "sfx/elves/little-elf-whispering-oui-sur-la-pointe-des-pieds-et-pas-un-.mp3"
+     }
+    },
+    {
+     "pause": 30
+    },
+    "sfx/bells/tiny-bells-jingling.mp3",
+    {
+     "pause": 8
+    },
+    "sfx/presents/rustling-paper.mp3",
+    {
+     "pause": 3
+    },
+    "sfx/presents/scissors-cutting-paper.mp3",
+    {
+     "pause": 2
+    },
+    "sfx/presents/pulling-tape-off-the-roll.mp3",
+    {
+     "pause": 35
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-red-ribbon-or-gold-ribbon.mp3",
+      "fr": "sfx/elves/elf-whispering-ruban-rouge-ruban-dore.mp3"
+     }
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-gold-always-gold.mp3",
+      "fr": "sfx/elves/little-elf-whispering-dore-toujours-dore.mp3"
+     }
+    },
+    {
+     "pause": 45
+    },
+    "sfx/presents/cardboard-box-flaps-opening.mp3",
+    {
+     "pause": 2
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-oof-this-one-is-heavy.mp3",
+      "fr": "sfx/elves/little-elf-whispering-ouf-il-est-lourd-celui-la.mp3"
+     }
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-put-it-under-the-tree-right-at-the-back.mp3",
+      "fr": "sfx/elves/elf-whispering-pose-le-sous-le-sapin-tout-au-fond.mp3"
+     }
+    },
+    {
+     "pause": 45
+    },
+    "sfx/presents/glass-baubles-clinking.mp3",
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-shh-you-ll-wake-them-up.mp3",
+      "fr": "sfx/elves/elf-whispering-chut-tu-vas-les-reveiller.mp3"
+     }
+    },
+    {
+     "pause": 35
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-did-you-hear-that.mp3",
+      "fr": "sfx/elves/little-elf-whispering-tu-as-entendu.mp3"
+     }
+    },
+    {
+     "pause": 5
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-no-nothing-let-s-carry-on.mp3",
+      "fr": "sfx/elves/elf-whispering-non-rien-on-continue.mp3"
+     }
+    },
+    {
+     "pause": 45
+    },
+    "sfx/presents/snipping-paper-with-scissors.mp3",
+    {
+     "pause": 2
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-careful-with-the-bow.mp3",
+      "fr": "sfx/elves/elf-whispering-doucement-avec-le-noeud.mp3"
+     }
+    },
+    {
+     "pause": 50
+    },
+    "sfx/santa/crunching-a-cookie.mp3",
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-hey-those-cookies-are-for-santa.mp3",
+      "fr": "sfx/elves/elf-whispering-he-les-biscuits-c-est-pour-le-pere-noel.mp3"
+     }
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-hee-hee-just-one-crumb.mp3",
+      "fr": "sfx/elves/little-elf-whispering-hi-hi-juste-une-miette.mp3"
+     }
+    },
+    {
+     "pause": 50
+    },
+    "sfx/bells/little-bells-jingling-softly-with-every-move.mp3",
+    {
+     "pause": 1
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-and-this-one-is-for-the-little-one.mp3",
+      "fr": "sfx/elves/little-elf-whispering-et-celui-la-c-est-pour-le-plus-petit.mp3"
+     }
+    },
+    {
+     "pause": 45
+    },
+    "sfx/presents/rustling-paper.mp3",
+    {
+     "pause": 2
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-quick-before-the-sun-comes-up.mp3",
+      "fr": "sfx/elves/elf-whispering-vite-avant-que-le-soleil-se-leve.mp3"
+     }
+    },
+    {
+     "pause": 35
+    },
+    "sfx/presents/pulling-tape-off-the-roll.mp3",
+    {
+     "pause": 3
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/elf-whispering-one-last-present-and-off-we-go.mp3",
+      "fr": "sfx/elves/elf-whispering-encore-un-cadeau-et-on-file.mp3"
+     }
+    },
+    {
+     "pause": 30
+    },
+    "sfx/elves/tiptoeing-footsteps-and-a-whispered-shh.mp3",
+    {
+     "pause": 2
+    },
+    {
+     "voice": {
+      "en": "sfx/elves/little-elf-whispering-good-night-children-sweet-dreams.mp3",
+      "fr": "sfx/elves/little-elf-whispering-bonne-nuit-les-enfants-faites-de-beaux.mp3"
+     }
+    },
+    {
+     "pause": 3
+    },
+    "sfx/magic/shimmering-fairy-sparkle.mp3"
    ]
   },
   {
@@ -464,6 +667,20 @@
    "source_url": "https://freesound.org/people/Tewkesound/sounds/140150/"
   },
   {
+   "id": "sfx/bells/little-bells-jingling-softly-with-every-move.mp3",
+   "kind": "sfx",
+   "title": "Little bells jingling softly with every move",
+   "title_fr": "Petits grelots qui tintent doucement à chaque geste",
+   "category": "bells",
+   "default_hidden": false,
+   "description": "Tiny jingling: the tags hanging from a dog's collar. Suggested usage: Santa's reindeer. Attribution: kickblue22.com (Freesound 401308)",
+   "duration": 5.96,
+   "url": "sounds/sfx/bells/little-bells-jingling-softly-with-every-move.mp3",
+   "license": "CC BY 4.0",
+   "author": "pogmothoin",
+   "source_url": "https://freesound.org/people/pogmothoin/sounds/401308/"
+  },
+  {
    "id": "sfx/bells/paris-church-bells-clock-striking-twelve.mp3",
    "kind": "sfx",
    "title": "Paris church bells, clock striking twelve",
@@ -574,6 +791,20 @@
    "license": "CC0 1.0 (public domain dedication)",
    "author": "steffcaffrey",
    "source_url": "https://freesound.org/people/steffcaffrey/sounds/452379/"
+  },
+  {
+   "id": "sfx/bells/tiny-bells-jingling.mp3",
+   "kind": "sfx",
+   "title": "Tiny bells jingling",
+   "title_fr": "Minuscules grelots qui tintent",
+   "category": "bells",
+   "default_hidden": false,
+   "description": "Shaking some bells on a cell phone charm. (Freesound 323731)",
+   "duration": 3.34,
+   "url": "sounds/sfx/bells/tiny-bells-jingling.mp3",
+   "license": "CC0 1.0 (public domain dedication)",
+   "author": "Reitanna",
+   "source_url": "https://freesound.org/people/Reitanna/sounds/323731/"
   },
   {
    "id": "sfx/bells/wind-chimes-in-the-breeze.mp3",
@@ -1022,7 +1253,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Elf, synthesised voice: Hee hee! The presents are ready, Santa!",
-   "duration": 2.35,
+   "duration": 2.61,
    "url": "sounds/sfx/elves/elf-hee-hee-the-presents-are-ready-santa.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1037,7 +1268,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Elf, synthesised voice: Hi hi ! Les cadeaux sont prêts, Père Noël !",
-   "duration": 2.53,
+   "duration": 2.77,
    "url": "sounds/sfx/elves/elf-hi-hi-les-cadeaux-sont-prets-pere-noel.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1052,7 +1283,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Elf, synthesised voice: Qui veut un cadeau ?",
-   "duration": 1.72,
+   "duration": 1.99,
    "url": "sounds/sfx/elves/elf-qui-veut-un-cadeau.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1067,7 +1298,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Elf, synthesised voice: Quick, quick! Only one more night until Christmas!",
-   "duration": 3.11,
+   "duration": 3.37,
    "url": "sounds/sfx/elves/elf-quick-quick-only-one-more-night-until-christmas.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1082,8 +1313,278 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Elf, synthesised voice: Vite, vite ! Plus qu'une nuit avant Noël !",
-   "duration": 2.53,
+   "duration": 2.8,
    "url": "sounds/sfx/elves/elf-vite-vite-plus-qu-une-nuit-avant-noel.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-careful-with-the-bow.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Careful with the bow...\"",
+   "title_fr": "Lutine, tout bas : \"Careful with the bow...\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Careful with the bow...",
+   "duration": 2.04,
+   "url": "sounds/sfx/elves/elf-whispering-careful-with-the-bow.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-chut-tout-le-monde-dort.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Chut ! Tout le monde dort ?\"",
+   "title_fr": "Lutine, tout bas : \"Chut ! Tout le monde dort ?\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Chut ! Tout le monde dort ?",
+   "duration": 2.12,
+   "url": "sounds/sfx/elves/elf-whispering-chut-tout-le-monde-dort.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-chut-tu-vas-les-reveiller.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Chut ! Tu vas les réveiller !\"",
+   "title_fr": "Lutine, tout bas : \"Chut ! Tu vas les réveiller !\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Chut ! Tu vas les réveiller !",
+   "duration": 2.25,
+   "url": "sounds/sfx/elves/elf-whispering-chut-tu-vas-les-reveiller.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-doucement-avec-le-noeud.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Doucement avec le nœud...\"",
+   "title_fr": "Lutine, tout bas : \"Doucement avec le nœud...\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Doucement avec le nœud...",
+   "duration": 2.14,
+   "url": "sounds/sfx/elves/elf-whispering-doucement-avec-le-noeud.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-encore-un-cadeau-et-on-file.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Encore un cadeau, et on file.\"",
+   "title_fr": "Lutine, tout bas : \"Encore un cadeau, et on file.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Encore un cadeau, et on file.",
+   "duration": 2.22,
+   "url": "sounds/sfx/elves/elf-whispering-encore-un-cadeau-et-on-file.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-he-les-biscuits-c-est-pour-le-pere-noel.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Hé ! Les biscuits, c'est pour le Père Noël !\"",
+   "title_fr": "Lutine, tout bas : \"Hé ! Les biscuits, c'est pour le Père Noël !\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Hé ! Les biscuits, c'est pour le Père Noël !",
+   "duration": 2.8,
+   "url": "sounds/sfx/elves/elf-whispering-he-les-biscuits-c-est-pour-le-pere-noel.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-hey-those-cookies-are-for-santa.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Hey! Those cookies are for Santa!\"",
+   "title_fr": "Lutine, tout bas : \"Hey! Those cookies are for Santa!\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Hey! Those cookies are for Santa!",
+   "duration": 2.32,
+   "url": "sounds/sfx/elves/elf-whispering-hey-those-cookies-are-for-santa.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-no-nothing-let-s-carry-on.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"No... nothing. Let's carry on.\"",
+   "title_fr": "Lutine, tout bas : \"No... nothing. Let's carry on.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: No... nothing. Let's carry on.",
+   "duration": 2.25,
+   "url": "sounds/sfx/elves/elf-whispering-no-nothing-let-s-carry-on.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-non-rien-on-continue.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Non... rien. On continue.\"",
+   "title_fr": "Lutine, tout bas : \"Non... rien. On continue.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Non... rien. On continue.",
+   "duration": 2.12,
+   "url": "sounds/sfx/elves/elf-whispering-non-rien-on-continue.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-one-last-present-and-off-we-go.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"One last present, and off we go.\"",
+   "title_fr": "Lutine, tout bas : \"One last present, and off we go.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: One last present, and off we go.",
+   "duration": 2.3,
+   "url": "sounds/sfx/elves/elf-whispering-one-last-present-and-off-we-go.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-pose-le-sous-le-sapin-tout-au-fond.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Pose-le sous le sapin, tout au fond.\"",
+   "title_fr": "Lutine, tout bas : \"Pose-le sous le sapin, tout au fond.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Pose-le sous le sapin, tout au fond.",
+   "duration": 2.51,
+   "url": "sounds/sfx/elves/elf-whispering-pose-le-sous-le-sapin-tout-au-fond.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-put-it-under-the-tree-right-at-the-back.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Put it under the tree, right at the back.\"",
+   "title_fr": "Lutine, tout bas : \"Put it under the tree, right at the back.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Put it under the tree, right at the back.",
+   "duration": 2.77,
+   "url": "sounds/sfx/elves/elf-whispering-put-it-under-the-tree-right-at-the-back.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-quick-before-the-sun-comes-up.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Quick, before the sun comes up!\"",
+   "title_fr": "Lutine, tout bas : \"Quick, before the sun comes up!\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Quick, before the sun comes up!",
+   "duration": 2.27,
+   "url": "sounds/sfx/elves/elf-whispering-quick-before-the-sun-comes-up.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-red-ribbon-or-gold-ribbon.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Red ribbon, or gold ribbon?\"",
+   "title_fr": "Lutine, tout bas : \"Red ribbon, or gold ribbon?\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Red ribbon, or gold ribbon?",
+   "duration": 2.14,
+   "url": "sounds/sfx/elves/elf-whispering-red-ribbon-or-gold-ribbon.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-ruban-rouge-ruban-dore.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Ruban rouge, ruban doré ?\"",
+   "title_fr": "Lutine, tout bas : \"Ruban rouge, ruban doré ?\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Ruban rouge, ruban doré ?",
+   "duration": 2.09,
+   "url": "sounds/sfx/elves/elf-whispering-ruban-rouge-ruban-dore.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-shh-is-everyone-asleep.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Shh! Is everyone asleep?\"",
+   "title_fr": "Lutine, tout bas : \"Shh! Is everyone asleep?\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Shh! Is everyone asleep?",
+   "duration": 2.14,
+   "url": "sounds/sfx/elves/elf-whispering-shh-is-everyone-asleep.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-shh-you-ll-wake-them-up.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Shh! You'll wake them up!\"",
+   "title_fr": "Lutine, tout bas : \"Shh! You'll wake them up!\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Shh! You'll wake them up!",
+   "duration": 2.12,
+   "url": "sounds/sfx/elves/elf-whispering-shh-you-ll-wake-them-up.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/elf-whispering-vite-avant-que-le-soleil-se-leve.mp3",
+   "kind": "sfx",
+   "title": "Elf, whispering: \"Vite, avant que le soleil se lève !\"",
+   "title_fr": "Lutine, tout bas : \"Vite, avant que le soleil se lève !\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Elf, whispering, synthesised voice: Vite, avant que le soleil se lève !",
+   "duration": 2.4,
+   "url": "sounds/sfx/elves/elf-whispering-vite-avant-que-le-soleil-se-leve.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
    "source_url": "https://github.com/k2-fsa/OmniVoice"
@@ -1097,7 +1598,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Elf, synthesised voice: Who wants a present?",
-   "duration": 1.75,
+   "duration": 1.99,
    "url": "sounds/sfx/elves/elf-who-wants-a-present.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1130,6 +1631,216 @@
    "license": "CC BY-NC 4.0",
    "author": "Legacy_of_Sound",
    "source_url": "https://freesound.org/people/Legacy_of_Sound/sounds/185502/"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-and-this-one-is-for-the-little-one.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"And this one is for the little one.\"",
+   "title_fr": "Petit lutin, tout bas : \"And this one is for the little one.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: And this one is for the little one.",
+   "duration": 2.19,
+   "url": "sounds/sfx/elves/little-elf-whispering-and-this-one-is-for-the-little-one.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-bonne-nuit-les-enfants-faites-de-beaux.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Bonne nuit, les enfants... faites de beaux rêves.\"",
+   "title_fr": "Petit lutin, tout bas : \"Bonne nuit, les enfants... faites de beaux rêves.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Bonne nuit, les enfants... faites de beaux rêves.",
+   "duration": 2.93,
+   "url": "sounds/sfx/elves/little-elf-whispering-bonne-nuit-les-enfants-faites-de-beaux.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-did-you-hear-that.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Did you hear that?\"",
+   "title_fr": "Petit lutin, tout bas : \"Did you hear that?\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Did you hear that?",
+   "duration": 1.85,
+   "url": "sounds/sfx/elves/little-elf-whispering-did-you-hear-that.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-dore-toujours-dore.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Doré ! Toujours doré.\"",
+   "title_fr": "Petit lutin, tout bas : \"Doré ! Toujours doré.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Doré ! Toujours doré.",
+   "duration": 2.01,
+   "url": "sounds/sfx/elves/little-elf-whispering-dore-toujours-dore.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-et-celui-la-c-est-pour-le-plus-petit.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Et celui-là, c'est pour le plus petit.\"",
+   "title_fr": "Petit lutin, tout bas : \"Et celui-là, c'est pour le plus petit.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Et celui-là, c'est pour le plus petit.",
+   "duration": 2.53,
+   "url": "sounds/sfx/elves/little-elf-whispering-et-celui-la-c-est-pour-le-plus-petit.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-gold-always-gold.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Gold! Always gold.\"",
+   "title_fr": "Petit lutin, tout bas : \"Gold! Always gold.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Gold! Always gold.",
+   "duration": 1.88,
+   "url": "sounds/sfx/elves/little-elf-whispering-gold-always-gold.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-good-night-children-sweet-dreams.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Good night, children... sweet dreams.\"",
+   "title_fr": "Petit lutin, tout bas : \"Good night, children... sweet dreams.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Good night, children... sweet dreams.",
+   "duration": 2.51,
+   "url": "sounds/sfx/elves/little-elf-whispering-good-night-children-sweet-dreams.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-hee-hee-just-one-crumb.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Hee hee... just one crumb.\"",
+   "title_fr": "Petit lutin, tout bas : \"Hee hee... just one crumb.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Hee hee... just one crumb.",
+   "duration": 2.12,
+   "url": "sounds/sfx/elves/little-elf-whispering-hee-hee-just-one-crumb.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-hi-hi-juste-une-miette.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Hi hi... juste une miette.\"",
+   "title_fr": "Petit lutin, tout bas : \"Hi hi... juste une miette.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Hi hi... juste une miette.",
+   "duration": 2.09,
+   "url": "sounds/sfx/elves/little-elf-whispering-hi-hi-juste-une-miette.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-oof-this-one-is-heavy.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Oof... this one is heavy!\"",
+   "title_fr": "Petit lutin, tout bas : \"Oof... this one is heavy!\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Oof... this one is heavy!",
+   "duration": 2.06,
+   "url": "sounds/sfx/elves/little-elf-whispering-oof-this-one-is-heavy.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-ouf-il-est-lourd-celui-la.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Ouf... il est lourd, celui-là !\"",
+   "title_fr": "Petit lutin, tout bas : \"Ouf... il est lourd, celui-là !\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Ouf... il est lourd, celui-là !",
+   "duration": 2.14,
+   "url": "sounds/sfx/elves/little-elf-whispering-ouf-il-est-lourd-celui-la.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-oui-sur-la-pointe-des-pieds-et-pas-un-.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Oui... sur la pointe des pieds, et pas un bruit.\"",
+   "title_fr": "Petit lutin, tout bas : \"Oui... sur la pointe des pieds, et pas un bruit.\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Oui... sur la pointe des pieds, et pas un bruit.",
+   "duration": 3.0,
+   "url": "sounds/sfx/elves/little-elf-whispering-oui-sur-la-pointe-des-pieds-et-pas-un-.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-tu-as-entendu.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Tu as entendu ?\"",
+   "title_fr": "Petit lutin, tout bas : \"Tu as entendu ?\"",
+   "category": "elves",
+   "lang": "fr",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Tu as entendu ?",
+   "duration": 1.62,
+   "url": "sounds/sfx/elves/little-elf-whispering-tu-as-entendu.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
+  },
+  {
+   "id": "sfx/elves/little-elf-whispering-yes-on-tiptoe-and-not-a-sound.mp3",
+   "kind": "sfx",
+   "title": "Little elf, whispering: \"Yes... on tiptoe, and not a sound.\"",
+   "title_fr": "Petit lutin, tout bas : \"Yes... on tiptoe, and not a sound.\"",
+   "category": "elves",
+   "lang": "en",
+   "default_hidden": false,
+   "description": "Little elf, whispering, synthesised voice: Yes... on tiptoe, and not a sound.",
+   "duration": 2.19,
+   "url": "sounds/sfx/elves/little-elf-whispering-yes-on-tiptoe-and-not-a-sound.mp3",
+   "license": "CC BY-NC 4.0",
+   "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
+   "source_url": "https://github.com/k2-fsa/OmniVoice"
   },
   {
    "id": "sfx/elves/little-toy-ratchet.mp3",
@@ -1186,6 +1897,20 @@
    "license": "Mixkit Sound Effects Free License (mixkit.co)",
    "author": "Mixkit",
    "source_url": "https://mixkit.co/free-sound-effects/toy/"
+  },
+  {
+   "id": "sfx/elves/tiptoeing-footsteps-and-a-whispered-shh.mp3",
+   "kind": "sfx",
+   "title": "Tiptoeing footsteps and a whispered shh",
+   "title_fr": "Pas sur la pointe des pieds et un « chut » chuchoté",
+   "category": "elves",
+   "default_hidden": false,
+   "description": "Children tiptoeing downstairs to see if they can spy Santa. One whispers \"shhh!\" during the sneak. (Freesound 611160; high-passed and lightly denoised here: the quiet recording is mostly rumble below 80 Hz.)",
+   "duration": 7.55,
+   "url": "sounds/sfx/elves/tiptoeing-footsteps-and-a-whispered-shh.mp3",
+   "license": "CC0 1.0 (public domain dedication)",
+   "author": "ShoelessJess",
+   "source_url": "https://freesound.org/people/ShoelessJess/sounds/611160/"
   },
   {
    "id": "sfx/elves/toy-drum.mp3",
@@ -1532,7 +2257,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Boy, synthesised voice: Can we open the presents now? Please?",
-   "duration": 2.27,
+   "duration": 2.53,
    "url": "sounds/sfx/kids/boy-can-we-open-the-presents-now-please.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1547,7 +2272,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Boy, synthesised voice: On peut ouvrir les cadeaux maintenant ? S'il te plaît ?",
-   "duration": 2.32,
+   "duration": 2.59,
    "url": "sounds/sfx/kids/boy-on-peut-ouvrir-les-cadeaux-maintenant-s-il-te-plait.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1562,7 +2287,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Boy, synthesised voice: Saint Nicholas is here! Saint Nicholas is here!",
-   "duration": 3.0,
+   "duration": 3.27,
    "url": "sounds/sfx/kids/boy-saint-nicholas-is-here-saint-nicholas-is-here.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1577,7 +2302,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Boy, synthesised voice: Saint Nicolas est là ! Saint Nicolas est là !",
-   "duration": 2.69,
+   "duration": 2.95,
    "url": "sounds/sfx/kids/boy-saint-nicolas-est-la-saint-nicolas-est-la.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1634,7 +2359,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Girl, synthesised voice: He came! He came! Santa came!",
-   "duration": 1.99,
+   "duration": 2.22,
    "url": "sounds/sfx/kids/girl-he-came-he-came-santa-came.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1649,7 +2374,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Girl, synthesised voice: Il est passé ! Il est passé ! Le Père Noël est passé !",
-   "duration": 3.0,
+   "duration": 3.27,
    "url": "sounds/sfx/kids/girl-il-est-passe-il-est-passe-le-pere-noel-est-passe.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1664,7 +2389,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Girl, synthesised voice: Joyeux Noël, maman ! Joyeux Noël, papa !",
-   "duration": 2.4,
+   "duration": 2.64,
    "url": "sounds/sfx/kids/girl-joyeux-noel-maman-joyeux-noel-papa.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -1679,7 +2404,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Girl, synthesised voice: Merry Christmas, Mommy! Merry Christmas, Daddy!",
-   "duration": 3.0,
+   "duration": 3.21,
    "url": "sounds/sfx/kids/girl-merry-christmas-mommy-merry-christmas-daddy.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -2243,7 +2968,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Host, synthesised voice: Cheers! Merry Christmas, everyone!",
-   "duration": 1.99,
+   "duration": 2.25,
    "url": "sounds/sfx/party/host-cheers-merry-christmas-everyone.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -2258,7 +2983,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Host, synthesised voice: Dix ! Neuf ! Huit ! Sept ! Six ! Cinq ! Quatre ! Trois ! Deux ! Un ! Bonne année !",
-   "duration": 4.21,
+   "duration": 4.44,
    "url": "sounds/sfx/party/host-dix-neuf-huit-sept-six-cinq-quatre-trois.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -2273,7 +2998,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Host, synthesised voice: Santé ! Joyeux Noël à tous !",
-   "duration": 1.83,
+   "duration": 2.09,
    "url": "sounds/sfx/party/host-sante-joyeux-noel-a-tous.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -2288,7 +3013,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Host, synthesised voice: Ten! Nine! Eight! Seven! Six! Five! Four! Three! Two! One! Happy New Year!",
-   "duration": 3.71,
+   "duration": 3.94,
    "url": "sounds/sfx/party/host-ten-nine-eight-seven-six-five-four-three-two-one.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3060,7 +3785,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Père Fouettard, synthesised voice: Hmm... is there anyone here who has not been good this year?",
-   "duration": 2.72,
+   "duration": 2.98,
    "url": "sounds/sfx/saint-nicolas/pere-fouettard-hmm-is-there-anyone-here-who-has-not-been-goo.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3075,7 +3800,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Père Fouettard, synthesised voice: Hum... Est-ce qu'il y a quelqu'un ici qui n'a pas été sage cette année ?",
-   "duration": 4.08,
+   "duration": 4.31,
    "url": "sounds/sfx/saint-nicolas/pere-fouettard-hum-est-ce-qu-il-y-a-quelqu-un-ici-qui-n-a-pa.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3090,7 +3815,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Père Fouettard, synthesised voice: I'm keeping an eye on you!",
-   "duration": 1.2,
+   "duration": 1.46,
    "url": "sounds/sfx/saint-nicolas/pere-fouettard-i-m-keeping-an-eye-on-you.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3105,7 +3830,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Père Fouettard, synthesised voice: Je vous ai à l'œil !",
-   "duration": 1.49,
+   "duration": 1.75,
    "url": "sounds/sfx/saint-nicolas/pere-fouettard-je-vous-ai-a-l-oeil.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3134,7 +3859,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Allez, au lit les petits, sinon je ne pourrai pas passer !",
-   "duration": 3.24,
+   "duration": 3.5,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-allez-au-lit-les-petits-sinon-je-ne-pourrai-p.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3149,7 +3874,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Bonne Saint-Nicolas à tous !",
-   "duration": 1.67,
+   "duration": 1.93,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-bonne-saint-nicolas-a-tous.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3164,7 +3889,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Bonsoir les enfants ! C'est moi, Saint Nicolas !",
-   "duration": 2.66,
+   "duration": 2.9,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-bonsoir-les-enfants-c-est-moi-saint-nicolas.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3179,7 +3904,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Dites-moi... avez-vous été bien sages cette année ?",
-   "duration": 2.74,
+   "duration": 2.98,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-dites-moi-avez-vous-ete-bien-sages-cette-anne.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3194,7 +3919,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Good children will find clementines and gingerbread in their shoes!",
-   "duration": 3.4,
+   "duration": 3.63,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-good-children-will-find-clementines-and-ginge.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3209,7 +3934,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Good evening, children! It's me, Saint Nicholas!",
-   "duration": 2.46,
+   "duration": 2.72,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-good-evening-children-it-s-me-saint-nicholas.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3224,7 +3949,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Happy Saint Nicholas' Day, everyone!",
-   "duration": 1.96,
+   "duration": 2.22,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-happy-saint-nicholas-day-everyone.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3239,7 +3964,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Knock, knock, knock! Is anybody home? It's Saint Nicholas!",
-   "duration": 2.9,
+   "duration": 3.16,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-knock-knock-knock-is-anybody-home-it-s-saint-.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3254,7 +3979,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Les enfants sages trouveront des mandarines et du pain d'épices dans leurs souliers !",
-   "duration": 4.99,
+   "duration": 5.25,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-les-enfants-sages-trouveront-des-mandarines-e.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3269,7 +3994,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Merci pour la carotte ! Mon âne s'est régalé.",
-   "duration": 2.64,
+   "duration": 2.9,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-merci-pour-la-carotte-mon-ane-s-est-regale.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3284,7 +4009,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Mon âne a fait un long voyage. Lui avez-vous laissé une carotte ?",
-   "duration": 3.66,
+   "duration": 3.92,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-mon-ane-a-fait-un-long-voyage.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3299,7 +4024,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: My donkey has walked a long way. Did you leave him a carrot?",
-   "duration": 2.85,
+   "duration": 3.11,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-my-donkey-has-walked-a-long-way.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3314,7 +4039,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Off to bed now, little ones, or I cannot come in!",
-   "duration": 2.38,
+   "duration": 2.64,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-off-to-bed-now-little-ones-or-i-cannot-come-i.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3329,7 +4054,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Tell me... have you been good this year?",
-   "duration": 1.93,
+   "duration": 2.19,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-tell-me-have-you-been-good-this-year.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3344,7 +4069,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Thank you for the carrot! My donkey loved it.",
-   "duration": 2.27,
+   "duration": 2.53,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-thank-you-for-the-carrot-my-donkey-loved-it.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3359,7 +4084,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Saint Nicholas, synthesised voice: Toc, toc, toc ! Il y a quelqu'un ? C'est Saint Nicolas !",
-   "duration": 2.9,
+   "duration": 3.16,
    "url": "sounds/sfx/saint-nicolas/saint-nicholas-toc-toc-toc-il-y-a-quelqu-un-c-est-saint-nico.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3626,7 +4351,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Allez, mes rennes ! En route !",
-   "duration": 1.75,
+   "duration": 1.99,
    "url": "sounds/sfx/santa/santa-allez-mes-rennes-en-route.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3641,7 +4366,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Au lit, les enfants, sinon le Père Noël ne passera pas !",
-   "duration": 3.24,
+   "duration": 3.47,
    "url": "sounds/sfx/santa/santa-au-lit-les-enfants-sinon-le-pere-noel-ne-passera-pas.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3656,7 +4381,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Chut... tout le monde dort. Déposons les cadeaux sous le sapin.",
-   "duration": 3.87,
+   "duration": 4.1,
    "url": "sounds/sfx/santa/santa-chut-tout-le-monde-dort.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3671,7 +4396,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Come on, my reindeer! Off we go!",
-   "duration": 1.99,
+   "duration": 2.22,
    "url": "sounds/sfx/santa/santa-come-on-my-reindeer-off-we-go.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3686,7 +4411,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Ho ho ho ! As-tu été sage cette année ?",
-   "duration": 2.19,
+   "duration": 2.43,
    "url": "sounds/sfx/santa/santa-ho-ho-ho-as-tu-ete-sage-cette-annee.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3701,7 +4426,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Ho ho ho! Have you been naughty, or nice?",
-   "duration": 2.46,
+   "duration": 2.72,
    "url": "sounds/sfx/santa/santa-ho-ho-ho-have-you-been-naughty-or-nice.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3746,7 +4471,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Ho ho ho ! Joyeux Noël !",
-   "duration": 1.78,
+   "duration": 2.04,
    "url": "sounds/sfx/santa/santa-ho-ho-ho-joyeux-noel.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3776,7 +4501,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Ho ho ho! Merry Christmas, everyone!",
-   "duration": 2.22,
+   "duration": 2.46,
    "url": "sounds/sfx/santa/santa-ho-ho-ho-merry-christmas-everyone.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3806,7 +4531,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Joyeux Noël à tous, et à tous une bonne nuit !",
-   "duration": 2.66,
+   "duration": 2.9,
    "url": "sounds/sfx/santa/santa-joyeux-noel-a-tous-et-a-tous-une-bonne-nuit.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3850,7 +4575,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Merry Christmas to all, and to all a good night!",
-   "duration": 2.87,
+   "duration": 3.13,
    "url": "sounds/sfx/santa/santa-merry-christmas-to-all-and-to-all-a-good-night.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3865,7 +4590,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Miam ! Qui m'a laissé ces délicieux biscuits ?",
-   "duration": 2.8,
+   "duration": 3.03,
    "url": "sounds/sfx/santa/santa-miam-qui-m-a-laisse-ces-delicieux-biscuits.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3880,7 +4605,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Mmm! Who left me these delicious cookies?",
-   "duration": 2.53,
+   "duration": 2.77,
    "url": "sounds/sfx/santa/santa-mmm-who-left-me-these-delicious-cookies.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3895,7 +4620,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Off to sleep, children, or Santa can't come!",
-   "duration": 2.59,
+   "duration": 2.82,
    "url": "sounds/sfx/santa/santa-off-to-sleep-children-or-santa-can-t-come.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3910,7 +4635,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Oof! This chimney gets smaller every year!",
-   "duration": 2.69,
+   "duration": 2.93,
    "url": "sounds/sfx/santa/santa-oof-this-chimney-gets-smaller-every-year.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -3925,7 +4650,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Ouf ! Cette cheminée rétrécit chaque année !",
-   "duration": 2.74,
+   "duration": 3.0,
    "url": "sounds/sfx/santa/santa-ouf-cette-cheminee-retrecit-chaque-annee.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -4038,7 +4763,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Santa, synthesised voice: Shh... everyone is asleep. Let's put the presents under the tree.",
-   "duration": 3.89,
+   "duration": 4.13,
    "url": "sounds/sfx/santa/santa-shh-everyone-is-asleep.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -4097,7 +4822,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Host, synthesised voice: Bienvenue ! Joyeux Noël et bonne année !",
-   "duration": 2.38,
+   "duration": 2.61,
    "url": "sounds/sfx/voices/host-bienvenue-joyeux-noel-et-bonne-annee.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -4112,7 +4837,7 @@
    "lang": "fr",
    "default_hidden": false,
    "description": "Host, synthesised voice: Écoutez... le Père Noël arrive !",
-   "duration": 1.91,
+   "duration": 2.14,
    "url": "sounds/sfx/voices/host-ecoutez-le-pere-noel-arrive.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -4127,7 +4852,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Host, synthesised voice: Listen... Santa is on his way!",
-   "duration": 1.78,
+   "duration": 2.01,
    "url": "sounds/sfx/voices/host-listen-santa-is-on-his-way.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
@@ -4142,7 +4867,7 @@
    "lang": "en",
    "default_hidden": false,
    "description": "Host, synthesised voice: Welcome! Merry Christmas and a happy New Year!",
-   "duration": 2.46,
+   "duration": 2.69,
    "url": "sounds/sfx/voices/host-welcome-merry-christmas-and-a-happy-new-year.mp3",
    "license": "CC BY-NC 4.0",
    "author": "OmniVoice (k2-fsa), synthesised for this soundboard",
